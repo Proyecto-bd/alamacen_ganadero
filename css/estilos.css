@@ -1,0 +1,339 @@
+/* CONFIGURACIONES CSS GENERALES */
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Open Sans", Arial, Sans-serif;
+  font-size: 16px; }
+
+header {
+  background: url(../img/bg.jpg), #004f99;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; 
+}
+
+footer{
+  background: url(../img/bg.jpg), #004f99;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; 
+}
+/* CREDENCIALES DE SESION */
+header .menu .info{
+  color: #fff;
+}
+
+header .menu p{
+margin-top: 13px;
+}
+
+header .menu span{
+  color: #FFF;
+  font-size: 11pt;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+header .menu{
+  display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photouser {
+  margin-left: 30px;
+  width: 25px;
+  height: 25px;
+}
+
+
+/* TEXTOS HEADER */
+
+  header .textos {
+    color: #fff;
+    text-align: center;
+    margin: 200px 0; }
+    header .textos .primera_linea,
+    header .textos .segunda_linea {
+      font-family: "Open Sans", Arial, Sans-serif;
+      font-weight: 300; }
+    header .textos .primera_linea {
+      font-size: 35px;
+      list-style: 35px;
+      margin-bottom: 30px; }
+    header .textos .segunda_linea {
+      font-size: 25px;
+      list-style: 25px;
+      margin-bottom: 60px; }
+
+/* CARACTERISTICAS */
+      .MAIN .CARACTERISTICAS
+      .main .caracteristicas {
+        padding: 70px 0; }
+        .main .caracteristicas .titulo {
+          text-align: center;
+          font-family: "Open Sans", Arial, Sans-serif;
+          font-weight: 300;
+          font-size: 32px;
+          color: #000;
+          margin-bottom: 70px; }
+        .main .caracteristicas .caracteristica {
+          text-align: center; }
+          .main .caracteristicas .caracteristica .icono {
+          vertical-align: top;
+          margin-bottom: 30px; }
+          .main .caracteristicas .caracteristica .primera_linea {
+          font-weight: 700;
+          margin-bottom: 30px;
+          font-size: 20px; }
+          .main .caracteristicas .caracteristica .parrafo {
+          margin-bottom: 30px;
+          line-height: 28px; }
+/*adicion css*/
+    #container{
+  padding: 90px 15px 15px;
+    }
+      header .container .primera_linea{
+        color: #fff;
+      }
+
+  nav ul{
+    list-style: none;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  nav ul > li a{
+    position: relative;
+  }
+  nav a{
+    color: #FFF;
+    display: block;
+    font-size: 10pt;
+    text-decoration: none;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+  }
+  nav .principal > a{
+      background: url(../images/arrow_bottom.png) no-repeat;
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-size: auto auto;
+      background-position: 94% center;
+      background-size: 10px;
+  }
+  nav ul li:hover ul{
+    display: block;
+    text-decoration: none;
+  }
+  nav li ul{
+
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    align-items: flex-start;
+    border-radius: 0 0 10px 10px;
+  }
+  nav li ul a{
+    position: relative;
+    padding: 10px 30px;
+    border-right: initial;
+  }
+  nav li ul li:last-child{
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+  }
+  /* css de formulario */
+  .form_register {
+    widows: 400px;
+    margin: auto;
+}
+/* FORMULARIO */
+
+body {
+  background: url(../img/fondo.jpg);
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat; 
+}
+
+ #titulor {
+    color:white;
+    -webkit-text-strok:2px black;
+    text-align: center;
+    font-size: 30px;
+}
+
+form  {
+    background: #2eaa76;
+    margin: auto;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px 50px;
+    border: 1px solid #046374;
+    border-radius: 3%;
+}
+
+.cli  {
+  background: #6c85ad;
+   margin: auto;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 20px 50px;
+  border: 1px solid #046374;
+  border-radius: 3%; 
+}
+.rcli{
+  font-size: 12pt;
+  background: #3ea27e ;
+  padding: 10px;
+  color: #FFF;
+  letter-spacing: 1px;
+  border: 0;
+  cursor: pointer;
+  margin: 15px auto;
+  width: 100px;
+  height: 45px;
+}
+
+
+label {
+    display: block;
+    font-size: 12pt;
+    margin: 15px auto 5px 15px;
+    color: white;
+}
+
+input #telefono{
+  margin: 15px auto 5px 15px;
+  float: left;
+}
+
+input,
+select {
+    display: block;
+    width: 50%;
+    font-size: 1pt;
+    padding: 5px;
+    border: 1px solid rgb(82, 242, 247);
+    border-radius: 5px;
+    
+}
+
+.btn_save {
+    font-size: 12pt;
+    background:#6c85ad ;
+    padding: 10px;
+    color: #FFF;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 15px auto;
+    width: 100px;
+    height: 45px;
+}
+
+.msg_save {
+    color: rgb(86, 235, 0);
+}
+
+.alert p {
+    padding: 10px;
+}
+
+#rol {
+    margin: 5px auto 5px 15px;
+    width: 38%;
+    height: 38px;
+} 
+
+  /*A qui termina*/
+
+/* FOOTER */
+footer .direccion {
+  padding: 30px 0;
+  color: #fff;
+ }
+
+ footer h1{
+   color: #fff;
+ }
+ footer .calle{
+  color: #fff;
+  font-size: 20px;
+}
+footer .correo{
+  color: #fff;
+  font-size: 20px;
+}
+  footer .direccion .titulo {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-bottom: 30px; 
+    color: #fff;
+  
+  }
+  footer .direccion .calle,
+  footer .direccion .telefono,
+  footer .direccion .correo {
+    margin-bottom: 10px; }
+   footer .direccion .logo img {
+    margin-top: 70px; } 
+ footer .social {
+  text-align: center;
+  padding: 20px 0; }
+
+
+@media screen and (max-width: 992px) {
+  header .contenedor_logo_menu .logo {
+    margin-bottom: 20px;
+    text-align: center; }
+  header .contenedor_logo_menu .menu {
+    text-align: center; }
+    header .contenedor_logo_menu .menu a {
+      margin: 0 20px; }
+  header .textos {
+    margin: 50px 0;
+    font-size: 16px; }
+    header .textos .primera_linea {
+      font-size: 1.5em; }
+    header .textos .segunda_linea {
+      font-size: 1.3em; }
+    header .textos .contenedor-btns a {
+      margin-bottom: 10px; }
+
+  .main .fotos .foto .titulo {
+    margin-top: 0; }
+  .main .clientes .cliente {
+    margin-bottom: 40px; } }
+@media screen and (max-width: 768px) {
+  .main .caracteristicas .caracteristica {
+    margin-bottom: 40px; }
+  .main .fotos .foto {
+    text-align: center; }
+    .main .fotos .foto .texto * {
+      text-align: left; }
+    .main .fotos .foto .texto p {
+      margin-bottom: 10px; }
+  .main .precios .precio {
+    margin-bottom: 20px; }
+
+  footer .direccion {
+    text-align: center; }
+    footer .direccion .logo img {
+      margin-top: 20px; } }
+
+/*# sourceMappingURL=estilos.css.map */
