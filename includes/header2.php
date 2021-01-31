@@ -1,4 +1,7 @@
 
+<?php
+
+?>
 <header>			
 		<div class="container">
 			<div class="row contenedor_logo_menu">
@@ -6,7 +9,6 @@
 				<div class="logo col-xs-12 col-md-6">
 				<h1 class="primera_linea">Almacen Ganadero</h1>
 				</div>
-
 			<div class="menu col-xs-12 col-md-6">
 				<p class="info">Colombia, <?php echo fechaC();?></p>
 				<span>|</span>
