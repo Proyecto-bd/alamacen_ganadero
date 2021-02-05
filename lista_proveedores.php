@@ -13,7 +13,7 @@ session_start();
     <?php
     include 'includes/scripts.php';
     ?>
-    <title>Listado Usuarios</title>
+    <title>Listado Proveedores</title>
 </head>
 
 <body class="formulario">
@@ -21,7 +21,7 @@ session_start();
     include 'includes/header2.php';
     ?>
     <?php
-    include 'includes/lista_u.php';
+    include 'includes/lista_provee.php';
     ?>
     <?php
     include 'includes/footer.php';
